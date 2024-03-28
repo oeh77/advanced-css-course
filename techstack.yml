@@ -1,0 +1,135 @@
+repo_name: oeh77/advanced-css-course
+report_id: c32343c10997991e1d732a04bd37b669
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-28T02:40:46+00:00'
+requested_by: jonasschmedtmann
+provider: github
+branch: master
+detected_tools_count: 9
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/oeh77/advanced-css-course
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/oeh77/advanced-css-course/blob/master/Natours/final-after-S06/package.json
+  detection_source: Natours/final-after-S06/package.json
+  last_updated_by: jonasschmedtmann
+  last_updated_on: 2017-10-23 10:03:46.000000000 Z
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/oeh77/advanced-css-course/blob/master/Natours/final-after-S06/package.json
+  detection_source: Natours/final-after-S06/package.json
+  last_updated_by: jonasschmedtmann
+  last_updated_on: 2017-10-23 10:03:46.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/oeh77/advanced-css-course/blob/master/Natours/after-S05/package.json
+  detection_source: Natours/after-S05/package.json
+  last_updated_by: jonasschmedtmann
+  last_updated_on: 2017-10-23 10:03:46.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/oeh77/advanced-css-course
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/oeh77/advanced-css-course/blob/master/Natours/final-after-S06/package.json
+  detection_source: Natours/final-after-S06/package.json
+  last_updated_by: jonasschmedtmann
+  last_updated_on: 2017-10-23 10:03:46.000000000 Z
+- name: node-sass
+  description: Wrapper around libsass
+  package_url: https://www.npmjs.com/node-sass
+  version: 4.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/oeh77/advanced-css-course/blob/master/Natours/after-S05/package.json
+  detection_source: Natours/after-S05/package.json
+  last_updated_by: jonasschmedtmann
+  last_updated_on: 2017-10-23 10:03:46.000000000 Z
+  vulnerabilities:
+  - name: Improper Certificate Validation in node-sass
+    cve_id: CVE-2020-24025
+    cve_url: https://github.com/advisories/GHSA-r8f7-9pfq-mjmv
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 7.0.0
+  - name: Denial of Service in node-sass
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-9v62-24cr-58cx
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: npm-run-all
+  description: A CLI tool to run multiple npm-scripts in parallel or sequential
+  package_url: https://www.npmjs.com/npm-run-all
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/oeh77/advanced-css-course/blob/master/Natours/final-after-S06/package.json
+  detection_source: Natours/final-after-S06/package.json
+  last_updated_by: jonasschmedtmann
+  last_updated_on: 2017-10-23 10:03:46.000000000 Z
+- name: postcss-cli
+  description: CLI for PostCSS
+  package_url: https://www.npmjs.com/postcss-cli
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16326/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/oeh77/advanced-css-course/blob/master/Natours/final-after-S06/package.json
+  detection_source: Natours/final-after-S06/package.json
+  last_updated_by: jonasschmedtmann
+  last_updated_on: 2017-10-23 10:03:46.000000000 Z
